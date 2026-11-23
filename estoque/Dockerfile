@@ -1,5 +1,5 @@
 # Usa uma imagem oficial do Java (OpenJDK)
-FROM eclipse-temurin:17-jdk-alpine as build
+FROM eclipse-temurin:25-jdk-alpine as build
 
 # Define o diretório de trabalho dentro do container
 WORKDIR /app
